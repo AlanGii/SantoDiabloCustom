@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 50;
     box-sizing: border-box;
 }
 body{
@@ -232,45 +232,72 @@ header .text-header h2{
 }
 
 /*Formulario*/
-.formCCS{
 
-    text-align: left;
-    width: 350px;/*ancho izquierda a derecha del fondo del formulario*/
-    background: grey;
-    padding: 60px;/*Para que el foprmulario no este pegado al borde*/
-    margin: auto;/*Lo enviamos al centro de la pagina*/
+.formCCS{
+    width: 400px;
+    background: #24303c;
+    padding: 40px;
+    margin: auto;
     border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: Arial;
+    color: aliceblue;
+    box-shadow: 7px 13px 37px #000;
 }
 
-.formCCS h4{/*titulo Formulario*/
-    font-size: 30px;
-    text-align: center;
+.formCCS .cols5{
     padding-bottom: 20px;
 }
-.formCCS h5{/*titulo de genero*/
-    padding-bottom: 6px;
-    font-family: Arial ;
+
+.formCCS h4{
+    font-size: 28px;
+    margin-bottom: 15px;
     text-align: center;
-    font-size: 15px;
 }
 
-.formCCS .input-field{/*campos*/
-    padding-bottom: 8px;
+.formCCS p{
+    display: flex;
+    padding-bottom: 10px;
+    align-items: flex-end;
+    
 }
-.formCCS .validate{
-    background-color: aqua;
-}
-
-
-
 
 .formCCS h6{
-    padding-bottom: 6px;
-    font-family: Arial, Helvetica, sans-serif ;
-    text-align: center;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: 'arial black';
 }
 
+
+.formCCS .browser-default{
+   width: 100%;
+   padding: 8px;
+   color: white;
+   background: #102b65;
+}
+
+
+.textBox{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    color: azure;
+}
+
+
+.formCCS .btn{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    margin: 15px;
+    font-size: 16px;
+    margin: auto;
+    color: aliceblue;
+}
 
 
 
@@ -278,7 +305,7 @@ header .text-header h2{
 
 footer{
     background: #414141;
-    padding: 60px 0 30px 0;
+    padding: 20px 0 30px 0;
     margin: auto;
     overflow: hidden;
 }
@@ -290,6 +317,12 @@ footer{
     margin: auto;
     padding-bottom: 50px;/*un espacio entre la parte mas baja de pagina para que no este todo pegado*/
     border-bottom: 1px solid grey;
+}
+.tf h4{
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    font-size: 18px;
 }
 
 .content-foo{
