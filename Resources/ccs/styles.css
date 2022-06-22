@@ -231,6 +231,49 @@ header .text-header h2{
     text-align: justify;
 }
 
+/*Formulario*/
+.formCCS{
+
+    text-align: left;
+    width: 350px;/*ancho izquierda a derecha del fondo del formulario*/
+    background: grey;
+    padding: 60px;/*Para que el foprmulario no este pegado al borde*/
+    margin: auto;/*Lo enviamos al centro de la pagina*/
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.formCCS h4{/*titulo Formulario*/
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.formCCS h5{/*titulo de genero*/
+    padding-bottom: 6px;
+    font-family: Arial ;
+    text-align: center;
+    font-size: 15px;
+}
+
+.formCCS .input-field{/*campos*/
+    padding-bottom: 8px;
+}
+.formCCS .validate{
+    background-color: aqua;
+}
+
+
+
+
+.formCCS h6{
+    padding-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+}
+
+
+
+
 /*fottter*/
 
 footer{

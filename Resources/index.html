@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SantoDiabloCustomComerce</title>
+    <script src="js/scripts.js"></script>
     <link rel="shortcut icon" href="image/diabloicon.png" type="image/png">
     <link rel="stylesheet" href="ccs/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,6 +28,7 @@
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C134.02,-34.02 378.94,238.33 500.00,49.98 L500.00,150.00 L-0.27,154.45 Z" style="stroke: none; fill: white;"></path></svg></div>
     </header>
+    <!-- Sobre nosotros -->
     <main>
         <section class="contenedor sobre-nosotros">
             <h2 class="titulo">Nuestros Producto</h2>
@@ -52,6 +54,7 @@
                 </div>
             </div>
         </section>
+        <!-- Customs -->
         <section class="portafolio">
             <div class="contenedor">
                 <h2 class="titulo">Customs</h2>
@@ -116,6 +119,7 @@
             </div>
         </section>
 
+        <!-- Lo que nuestros clietnes Piensan -->
         <section class="cliente contenedor">
             <h2 class="titulo">Lo que nuestros clientes piensan</h2>
             <div class="cards">
@@ -136,7 +140,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- Sobre nuestros Servicios -->
         <section class="about-services">
             <div class="contenedor">
                 <h2 class="titulo">Nuestro Servicios</h2>
@@ -161,7 +165,87 @@
         </section>
 
     </main>
+<!-- Formulario -->
+    <section class="formCCS">
+        <div class="col s5">
+            <div class="col s8 offset-2">
+                <form id="Form">
+                    <div class="FormSex">
+                        <h4>Formulario</h4>
+                        <h5>Que Sexo eres?</h5>
+                        <p>
+                            <label>
+                                <input value="hombre" class="with-gap" name="selector" type="radio" checked />
+                                <span>Hombre</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input value="mujer" class="with-gap" name="selector" type="radio" checked />
+                                <span>Mujer</span>
+                            </label>
+                        </p>
+                    </div>
 
+                    <div class="input-field">
+                        <label for="typeName" >Nombre</label>
+                        <input type="text" required id="typeName" name="typeName" class="validate">
+                    </div>
+
+                    <div class="input-field">
+                        <label for="typeLastName" >Apellidos</label>
+                        <input placeholder="Ingresa tu Nombre" type="text" required id="typeLastName" name="typeLastName" class="validate">
+                    </div>
+
+                    <div class="input-field">
+                        <label for="typeMail">Correo Electronico  </label>
+                        <input type="text" required id="typeMail" name="typeMail" class="validate">
+                    </div>
+
+                    <div class="FormService">
+                        <h6> Que tipo de Trabajo necesitas?</h>
+                        <p>
+                            <label>
+                                <input value="helmetPaint" class="with-gap" name="selector1" type="radio" checked />
+                                <span>Pintado de Casco</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input value="motocyclePaint" class="with-gap" name="selector1" type="radio" checked />
+                                <span>Pintado de Motocicleta</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input value="piecePaint" class="with-gap" name="selector1" type="radio" checked />
+                                <span>Pintado de Piezas</span>
+                            </label>
+                        </p>
+                        <div class="Form">
+                            <label for="typePaint">Tipo de Pintura</label>
+                            <select class="browser-default" required id="typePaint" name="typePaint" >
+                                <option value="metalFlake">Metal Flake</option>
+                                <option value="candys">Candys</option>
+                                <option value="solidColors">Colores Solidos</option>
+                                <option value="pearl">Perlas</option>
+                                <option value="vibrants">Vibrantes</option>
+                                <option value="camaleon">Camaleon</option>
+                                <option value="exclusive">Exclusivos</option>
+                                <option value="highSolids">Altos Solidos</option>
+                            </select>
+                        </div>
+                        <div class="Form">
+                            <button class="btn" id="send" >Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+
+    <!-- Final de la pagona/ Footer. -->
     <footer>
         <div class="contenedor-footer">
             <div class="content-foo">
